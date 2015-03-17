@@ -1,0 +1,22 @@
+算法 学习笔记
+0.java类初始化顺序
+http://www.cnblogs.com/jackyrong/archive/2008/08/12/1266161.html
+1.运算符优先级
+http://www.cnblogs.com/gw811/archive/2012/10/13/2722752.html
+2.原始数据类型的转换
+将浮点型转化为整形，不做四舍五入，而是直接截取
+3.1/0会报运行时异常
+  1/0.0结果为infinity
+4.斐波那契数列的非递归方法
+ 		int f=0;
+        int g=1;
+        for(int i=0;i<=15;i++){
+            System.out.println(f);
+            f=f+g;
+            g=f-g;
+        }
+5.hamming code 的逆运算
+		String s="";
+        for(int n=10;n>0;n/=2)
+            s+=n%2;
+        System.out.println(s);
