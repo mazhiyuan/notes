@@ -20,3 +20,7 @@ http://www.cnblogs.com/gw811/archive/2012/10/13/2722752.html
         for(int n=10;n>0;n/=2)
             s+=n%2;
         System.out.println(s);
+6.math.abs(Integer.MIN_VALUE)的结果仍然是Integer.MIN_VALUE，原因是溢出
+integer最小值为 2的31次减一1 即32位都为1，由于计算机中负数一般由补码表示
+故，应该为1000000...00001，abs操作时，除符号位外其他位取反后加1，又变为32个1的数字，即为原数字本身
+
