@@ -15,6 +15,7 @@ http://www.cnblogs.com/gw811/archive/2012/10/13/2722752.html
             f=f+g;
             g=f-g;
         }
+        与递归方式的比较
 5.hamming code 的逆运算
 		String s="";
         for(int n=10;n>0;n/=2)
