@@ -24,4 +24,8 @@ http://www.cnblogs.com/gw811/archive/2012/10/13/2722752.html
 6.math.abs(Integer.MIN_VALUE)的结果仍然是Integer.MIN_VALUE，原因是溢出
 integer最小值为 2的31次减一1 即32位都为1，由于计算机中负数一般由补码表示
 故，应该为1000000...00001，abs操作时，除符号位外其他位取反后加1，又变为32个1的数字，即为原数字本身
+7.数组也是对象
+8.stack 的实现
+对象游离  object loitering http://my.oschina.net/crazymonkey/blog/161895    java内存模型 jvm
+何时判断stack满
 
