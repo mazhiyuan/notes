@@ -29,3 +29,4 @@ integer最小值为 2的31次减一1 即32位都为1，由于计算机中负数�
 对象游离  object loitering http://my.oschina.net/crazymonkey/blog/161895    java内存模型 jvm
 何时判断stack满
 
+java关键字  final，static，volatile
